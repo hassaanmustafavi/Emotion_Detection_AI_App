@@ -7,7 +7,7 @@ import pickle
 app = Flask(__name__)
 
 # Load the saved model
-model = load_model("emotion_detection_model.h5")
+model = load_model("emotion_detection_model_v2.h5")
 
 # Load tokenizer from disk
 with open('tokenizer.pickle', 'rb') as handle:
